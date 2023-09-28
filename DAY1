@@ -1,1 +1,17 @@
+ 27-09-23
+1.
+#include <stdio.h>
 
+int main() {
+    float balance = 100000;  
+    float interestRate = 0.12;  
+    float monthlyInterestRate = interestRate / 12;
+    balance -= 25000;
+    balance += 10000;
+    for (int month = 1; month <= 12; month++) {
+        balance += balance * monthlyInterestRate;  
+    }
+    printf("Swajith's balance at the end of the year: %.2f\n", balance);
+
+    return 0;
+}
