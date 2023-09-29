@@ -27,8 +27,8 @@ def segregate_positive(nums):
         while 1 <= nums[i] <= n and nums[i] != nums[nums[i] - 1]:
             nums[nums[i] - 1], nums[i] = nums[i], nums[nums[i] - 1]
 def find_missing_positive(nums):
-    n = len(nums)
-    segregate_positive(nums)
+    n = len(nums)                                                                   output:
+    segregate_positive(nums)                                                        5
     for i in range(n):
         if nums[i] != i + 1:
             return i + 1
@@ -40,9 +40,9 @@ print("Smallest missing positive integer is:", result)
 *   swap numbers:
 ____________
 a = 100
-b = 200
-a = a ^ b
-b = a ^ b
+b = 200                                                     output:
+a = a ^ b                                                   a=200
+b = a ^ b                                                   b=100
 a = a ^ b
 print("a:", a)
 print("b:", b)
@@ -51,8 +51,8 @@ print("b:", b)
 _______________________________________
 def is_kth_bit_set(n, k):
     mask = 1 << k
-    return (n & mask) != 0
-n = 25  
+    return (n & mask) != 0                                    output:
+n = 25                                                       3rd bit set in 25.
 k = 3   
 if is_kth_bit_set(n, k):
     print(f"The {k}th bit is set in {n}.")
@@ -63,8 +63,8 @@ else:
 _________________________________
 def xor_of_numbers(n):
     result = 0
-    for i in range(1, n + 1):
-        result ^= i
+    for i in range(1, n + 1):                                      output:
+        result ^= i                                                  1
     return result
 n = 5
 result = xor_of_numbers(n)
@@ -74,7 +74,7 @@ find out xor for all the given number for the range?
 _________________________________________
 i = 1
 r = 9
-result = 0
+result = 0                                                        output:  1
 for num in range(i, r + 1):
     result ^= num
 print("XOR of numbers from", i, "to", r, "is:", result)
