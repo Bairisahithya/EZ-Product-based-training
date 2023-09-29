@@ -1,1 +1,19 @@
+29-09-23
 
+Bitwise operators orders:-
+&(AND)----->2
+|(OR)----->4
+~(TILL)----->1
+^(XOR)----->3(if in the binary no. we have 1 then it is denoted by 1)
+2types:-
+1)inclusive 
+2)exclusive
+
+
+1)10&4~2 invalid because its wont accept 2digits
+2)6|3&9+6 valid
+3)2~4^3*2 invalid
+4)~9+4&6 valid because negation accepts 1 digit.
+
+~n=-(n+1)
+eg:-~9=-(9+1)=-10
