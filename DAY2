@@ -28,7 +28,7 @@ print("\nRotated Matrix:")
 print_matrix(rotated_matrix)
 
 
-2. sum of arrays
+2. sum of arrays elements:
 #include <stdio.h>
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
