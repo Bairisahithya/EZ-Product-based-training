@@ -1,2 +1,16 @@
 difference between recursion and backtracking
 __________________________________________________
+Recursion:
+---------
+•Recursion is a fundamental concept in computer science.
+It involves a function repeatedly calling itself until a base case is reached. Recursion is used to solve problems by breaking them down into smaller, similar sub-problems.
+It can significantly reduce code length and complexity compared to iteration. Recursion is an optimal approach for tasks like tree and graph traversals and finding the Greatest
+Common Divisor (GCD) using Euclid's algorithm.
+Backtracking:
+------------
+Backtracking is a technique for finding solutions to problems through recursive exploration.
+It involves undoing recursive changes if certain conditions are not met and discarding less optimal solutions.
+Backtracking is more efficient than brute force in solving complex problems, although it can have exponential time complexity.
+It excels in solving challenging problems like the N-Queens problem and the Traveling Salesman
+Problem (TSP).
+*It explores various choices and systematically backtracks when necessary to arrive at the best solution.
