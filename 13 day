@@ -1,4 +1,4 @@
-[4:16 PM, 10/11/2023] Nandhu❤️: three pointer algorithm:- The three-pointer algorithm is typically used in more complex problems or problems with specific 
+ three pointer algorithm:- The three-pointer algorithm is typically used in more complex problems or problems with specific 
 constraints. In this algorithm, three pointers are manipulated to track specific positions within the array or sequence.
 def solve(arr):
     for p3 in range(len(arr)-2):
